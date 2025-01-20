@@ -75,7 +75,11 @@ if "authenticated" not in st.session_state:
 
 col1, col2 = st.columns([1,5])  # Create two columns, with a wider second column
 with col1:
-    st.image(r"C:\Users\tejas\Downloads\img.png", width=100)  # Image in the first column,
+    drive_link = "https://drive.google.com/uc?id=https:17GWMVseR6WtgAASrCcFswm9hsz7EfcN3"
+
+# Display the image
+    st.image(drive_link, width=100)
+    #st.image(r"C:\Users\tejas\Downloads\img.png", width=100)  # Image in the first column,
     unsafe_allow_html=True
 with col2:
     st.markdown("<h1 style='font-size: 30px;'> Festiva-Your Festival Planner App</h1>", unsafe_allow_html=True)
