@@ -75,7 +75,7 @@ if "authenticated" not in st.session_state:
 
 col1, col2 = st.columns([1,5])  # Create two columns, with a wider second column
 with col1:
-    drive_link = "https://drive.google.com/uc?id=https:17GWMVseR6WtgAASrCcFswm9hsz7EfcN3"
+    drive_link = "https://i.postimg.cc/PrHs97hk/img.png"
 
 # Display the image
     st.image(drive_link, width=100)
