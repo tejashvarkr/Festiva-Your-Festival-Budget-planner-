@@ -7,7 +7,7 @@ import sqlite3
 import time
 
 # Load environment variables
-os.environ["grokapikeyllama"] = "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"
+os.environ["grokapikeyllama"] = "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"
 
 # Initialize Groq client
 client = Groq(api_key=os.environ.get("grokapikeyllama"))
