@@ -1,0 +1,1 @@
+It uses groq api,prompt template to give suggestions based on the inputs entered through streamlit interface.It gives you real time insights on planning festivals' budgets and helps you track budget as well 
